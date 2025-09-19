@@ -90,14 +90,14 @@ const Portfolio = () => {
           <div className='flex justify-between items-center h-16'>
             <div className='flex-shrink-0'>
               <h1 className='text-2xl font-bold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent'>
-                DesignStudio
+                Canog Manuel
               </h1>
             </div>
 
             {/* Desktop Navigation */}
             <div className='hidden md:block'>
               <div className='ml-10 flex items-baseline space-x-8'>
-                {['Home', 'My Works', 'About', 'Contact'].map((item) => (
+                {['Home', 'Works', 'About', 'Contact'].map((item) => (
                   <button
                     key={item}
                     onClick={() => scrollToSection(item.toLowerCase().replace(' ', ''))}
@@ -125,7 +125,7 @@ const Portfolio = () => {
         {isMenuOpen && (
           <div className='md:hidden bg-white border-t'>
             <div className='px-2 pt-2 pb-3 space-y-1'>
-              {['Home', 'My Works', 'About', 'Contact'].map((item) => (
+              {['Home', 'Works', 'About', 'Contact'].map((item) => (
                 <button
                   key={item}
                   onClick={() => scrollToSection(item.toLowerCase().replace(' ', ''))}
@@ -144,8 +144,8 @@ const Portfolio = () => {
           <div className='grid grid-cols-1 lg:grid-cols-2 gap-12 items-center'>
             <div>
               <h1 className='text-4xl md:text-6xl font-bold text-gray-900 mb-6'>
-                Creative
-                <span className='block bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent'>
+                I'm Manuel
+                <span className='block bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent pb-4'>
                   Graphics Designer
                 </span>
               </h1>
@@ -180,11 +180,11 @@ const Portfolio = () => {
         </div>
       </section>
 
-      {/* My Works Section */}
+      {/* Works Section */}
       <section id='works' className='py-20 bg-white'>
         <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
           <div className='text-center mb-16'>
-            <h2 className='text-3xl md:text-4xl font-bold text-gray-900 mb-4'>My Works</h2>
+            <h2 className='text-3xl md:text-4xl font-bold text-gray-900 mb-4'>Works</h2>
             <p className='text-xl text-gray-600 max-w-3xl mx-auto'>
               A showcase of my recent projects spanning logo design, static advertisements, and 3D modeling
             </p>
@@ -256,7 +256,7 @@ const Portfolio = () => {
                   </div>
                   <div className='flex items-center space-x-3'>
                     <div className='w-2 h-2 bg-green-600 rounded-full'></div>
-                    <span className='text-gray-700'>Visual Identity Systems</span>
+                    <span className='text-gray-700'>2D Illustration andDrawing</span>
                   </div>
                 </div>
               </div>
@@ -284,7 +284,7 @@ const Portfolio = () => {
                 </div>
                 <div>
                   <h3 className='text-lg font-bold text-gray-900 mb-1'>Email</h3>
-                  <p className='text-gray-600'>hello@designstudio.com</p>
+                  <p className='text-gray-600'>1-220297@asiatech.edu.ph</p>
                 </div>
               </div>
 
@@ -304,7 +304,7 @@ const Portfolio = () => {
                 </div>
                 <div>
                   <h3 className='text-lg font-bold text-gray-900 mb-1'>Location</h3>
-                  <p className='text-gray-600'>New York, NY</p>
+                  <p className='text-gray-600'>Region IV-A, Philippines</p>
                 </div>
               </div>
 
@@ -359,7 +359,8 @@ const Portfolio = () => {
                     <option>Logo Design</option>
                     <option>Static Advertisement</option>
                     <option>3D Modeling</option>
-                    <option>Complete Brand Identity</option>
+                    <option>Drawing and Illustration</option>
+                    <option>Other</option>
                   </select>
                 </div>
 
@@ -387,10 +388,10 @@ const Portfolio = () => {
         <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
           <div className='text-center'>
             <h3 className='text-2xl font-bold mb-4 bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent'>
-              DesignStudio
+              Canog Manuel
             </h3>
             <p className='text-gray-400 mb-4'>Creating visual experiences that inspire and engage</p>
-            <p className='text-gray-500 text-sm'>© 2025 DesignStudio. All rights reserved.</p>
+            <p className='text-gray-500 text-sm'>© 2025 Canog Manuel. All rights reserved.</p>
           </div>
         </div>
       </footer>
